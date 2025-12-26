@@ -8,7 +8,7 @@
   GUESS     DB 20 DUP(?)
   MSG_HELLO DB 13, 10, "Welcome to the Guessing Game.$"
   MSG_INSTR DB 13, 10, "Guess the secret number: $"
-  MSG_ERROR DB 13, 10, "Only numbers are allowed"
+  MSG_ERROR DB 13, 10, "Only numbers are allowed.$"
   MSG_LOW   DB 13, 10, "Too low. Guess higher!$"
   MSG_HIGH  DB 13, 10, "Too high. Guess lower!$"
   MSG_WIN   DB 13, 10, "You win! You needed $"
@@ -90,3 +90,4 @@ INCLUDE IO.ASM
 INCLUDE RND.ASM
 
 END START
+
