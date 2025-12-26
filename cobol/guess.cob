@@ -25,7 +25,7 @@
 00220       DISPLAY 'I have chosen a number between 1 and 100.'
 00230       DISPLAY 'Can you guess what it is?'
 00240       ACCEPT random-number FROM TIME.
-00250       COMPUTE random-number = FUNCTION MOD(random-number, 100) + 1.
+00250       COMPUTE random-number = FUNCTION MOD(random-number, 99) + 1.
 00260       MOVE 0 TO tries. *> Reset Versuchszähler
 
 00270       PERFORM UNTIL guess-number = random-number
