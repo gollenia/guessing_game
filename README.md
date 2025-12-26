@@ -38,7 +38,7 @@ Feel free to contribute your own version in any language – even esoteric ones!
 - [ ] Java
 - [ ] Python
 - [ ] Fortran
-- [ ] Assembler (TASM/x86)
+- [x] Assembler (TASM/x86)
 - [ ] Assembler (ARM)
 - [ ] QuickBasic
 - [ ] Erlang
