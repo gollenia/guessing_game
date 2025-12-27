@@ -8,11 +8,11 @@ This project is not about performance or best practices in each language, but ab
 
 -   The program generates a random number with a range of 0 ≤ n < 100
 -   The random number should be different each time the game is run (i.e., seeded randomness if required)
--   Input should be read as string to allow checking for non-numeric input and "q"
 -   The user has to guess the number by typing guesses
 -   The program counts the number of guesses
--   The user can quit the program at any time by typing "q"
+-   The user can quit the program at any time by hitting <Ctrl>-<c>
 -   The program must not crash on invalid input
+-   The guesses are counted and displayed ath the end
 -   When the user won, he is prompted, if he/she wants to play again
 -   The user can confirm this question with y/n
 
