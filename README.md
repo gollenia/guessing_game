@@ -1,54 +1,71 @@
-### Rust Guessing Game in multiple languages
+# 🎲 The Polyglot Guessing Game
 
-In this repo, I’m collecting implementations of the Rust tutorial’s Guessing Game in multiple programming languages.
+![Just for Fun](https://img.shields.io/badge/project-just%20for%20fun-blueviolet) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project is not about performance or best practices in each language, but about exploring different syntaxes, paradigms, and basic language features by implementing the same simple game.
+In this repository, I am collecting implementations of the classic **Guessing Game** (inspired by the [Rust Book tutorial](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html)) in as many programming languages as possible.
 
-### Gameplay Rules
+**Goal:** This project is not about maximum performance or best practices. It is about exploring different syntaxes, paradigms, and language features by solving the exact same problem over and over again.
 
--   The program generates a random number with a range of 0 ≤ n < 100
--   The random number should be different each time the game is run (i.e., seeded randomness if required)
--   The user has to guess the number by typing guesses
--   The program counts the number of guesses
--   The user can quit the program at any time by hitting <Ctrl>-<c>
--   The program must not crash on invalid input
--   The guesses are counted and displayed ath the end
--   When the user won, he is prompted, if he/she wants to play again
--   The user can confirm this question with y/n
+---
 
-### Technical Constraints
+## 🎮 Gameplay Rules
 
--   Use at least one extra include file
--   Use at least one loop
--   Use at least one if clause
--   Use at least one function/method (if the language supports it)
--   Use meaningful variable names (no x, y, or tmp unless unavoidable)
--   Keep the code as simple and readable as possible – greetings to Uncle Bob...
--   Avoid external libraries (unless absolutely necessary for randomness or input)
+Every implementation must follow these specific gameplay mechanics:
 
-Feel free to contribute your own version in any language – even esoteric ones! Pull requests welcome.
+1.  **Randomness:** The program generates a random number `n` where `0 ≤ n < 100` (0 to 99).
+    * *Constraint:* The number must be different each time the program runs (seeded randomness).
+2.  **Input:** The user guesses the number by typing integers into the console.
+3.  **Feedback:** The program provides feedback (Too high / Too low).
+4.  **Counting:** The program tracks the number of attempts.
+5.  **Robustness:** The program **must not crash** on invalid input (e.g., letters instead of numbers).
+6.  **Victory:** When the user wins:
+    * Display the total number of guesses.
+    * Ask if they want to play again (`y`/`n`).
+7.  **Quit:** The user can stop the program at any time (e.g., via `Ctrl-C` or a quit command).
 
-### Languages Implemented So Far
-- [x] Rust
-- [x] C
+## ⚙️ Technical Constraints
+
+To make things interesting (and structured), the code must adhere to the "Staatliche Verordnung" (Official Regulations):
+
+* 🧩 **Modularity:** Use at least **one** extra include file / module / header.
+* cw **Control Flow:** Use at least one **loop** and one **if-clause**.
+* 📦 **Functions:** Use at least one function/method (if the language supports it).
+* 🏷️ **Naming:** Use meaningful variable names. No `x`, `y`, or `tmp` allowed!
+* 🧹 **Clean Code:** Keep it simple and readable. *Greetings to Uncle Bob.*
+* 🚫 **Dependencies:** Avoid external libraries unless absolutely necessary for RNG or Input.
+
+---
+
+## 🌍 Languages Implemented So Far
+
+### The "Done" Pile ✅
+- [x] **Rust** (The Original)
+- [x] **C** (The Classic)
+- [x] **COBOL** (The Verbose Titan)
+- [x] **Assembler** (TASM/x86 - The Hardcore Mode)
+
+### The "To-Do" List 📝
 - [ ] C++
-- [ ] Objective C
+- [ ] Objective-C
 - [ ] Go
-- [x] COBOL
 - [ ] Java
 - [ ] Python
 - [ ] Fortran
-- [x] Assembler (TASM/x86)
 - [ ] Assembler (ARM)
 - [ ] QuickBasic
 - [ ] Erlang
 - [ ] Julia
-- [ ] JavaScript
+- [ ] JavaScript (Node.js)
 - [ ] PHP
-- [ ] ruby
+- [ ] Ruby
 - [ ] Perl
 - [ ] Bash Script
 - [ ] Swift
-- [ ] ...
+- [ ] ... *and whatever else looks fun!*
 
-![Just for Fun](https://img.shields.io/badge/project-just%20for%20fun-blueviolet)
+---
+
+### 🤝 Contributing
+
+Feel free to contribute your own version in any language – even esoteric ones!
+**Pull requests are welcome.** Just make sure you follow the rules above.
