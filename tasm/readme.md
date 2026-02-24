@@ -5,7 +5,7 @@ Coded for Turbo Assembler under MS DOS
 
 #### Compile with
 
-```dos
+```bat
 C:> tasm main.asm
 C:> tlink main
 ```
