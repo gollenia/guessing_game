@@ -2,7 +2,7 @@ SCAN PROC
   PUSH BX CX DX SI DS
 
   RESET_SCAN:
-    MOV     AH, 3FH          ; Interrupt for input. Result to Address in DX
+    MOV     AH, 3FH          ; Opcode for input. Result to Address stored in DX
     MOV     BX, 0            ; Device Handle
     MOV     CX, 10           ; Buffer Size
     MOV     DX, OFFSET GUESS ; Target Address (Result is stored into GUESS!)
@@ -72,4 +72,5 @@ PRINT_NUM PROC
     POP DX CX BX AX
     RET
 PRINT_NUM ENDP
+
 
