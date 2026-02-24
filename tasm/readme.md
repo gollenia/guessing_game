@@ -1,10 +1,11 @@
-## TASM
+# TASM Version of the Guessing Game
 
-Assembler Version of the Guessing Game. 
+This is the Turbo Assembler Version of the Guessing Game from the Rust tutorial, part of the **Guessing Game Multiverse** project.  
+
+### 🔧 Compile Instructions
+
 Coded for Turbo Assembler under MS DOS.
 Compiled successfully with TASM 4.0
-
-#### Compile with
 
 ```bat
 C:\> tasm main.asm
