@@ -6,6 +6,6 @@ Coded for Turbo Assembler under MS DOS
 #### Compile with
 
 ```bat
-C:> tasm main.asm
-C:> tlink main
+C:\> tasm main.asm
+C:\> tlink main
 ```
