@@ -1,4 +1,4 @@
-# C Version – Rust Guessing Game Multiverse 🎮
+# C Version of the Guessing Game
 
 This is the C implementation of the Guessing Game from the Rust tutorial, part of the **Guessing Game Multiverse** project.  
 It demonstrates basic C syntax, control flow, input handling, and random number generation.
